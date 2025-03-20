@@ -11,7 +11,7 @@ export default function Home() {
           {/* background overlay */}
           <div className="flex h-full w-full items-center justify-center backdrop-blur-[80px]">
             {/* music player */}
-            <div className="flex aspect-square w-xs flex-col items-center justify-between rounded-[3rem] bg-[url(/assets/images/bg-1.png)] bg-cover bg-center p-4 outline-[16px] outline-offset-0 outline-black/40 outline-solid">
+            <div className="flex aspect-square w-xs flex-col items-center justify-between rounded-[3rem] bg-[url(/assets/images/bg-1.png)] bg-cover bg-center p-4 outline-[16px] outline-offset-0 outline-black/40 transition-all duration-300 ease-in-out outline-solid hover:scale-[1.01] hover:outline-black/45 active:scale-[1] active:outline-black/40">
               {/* music info */}
               <div className="flex w-full items-center justify-items-start gap-4">
                 {/* artist info */}
